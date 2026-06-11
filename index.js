@@ -9,3 +9,5 @@ const server = http.createServer((req, res) => {
 server.listen((3001), () => {
   console.log('server is ruuning on port 3001')
 })
+
+// Streams and buffers next 
