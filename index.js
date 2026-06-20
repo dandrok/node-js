@@ -2,6 +2,7 @@ const http = require('http')
 
 
 const server = http.createServer((req, res) => {
+  console.log(`methods: ${req.method}, ${req.url}`)
   res.write('server response')
   res.end()
 })
